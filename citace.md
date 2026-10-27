@@ -10,6 +10,6 @@
 
 ## Použité prompty pro generování kódu
 
-- „Vytvoř první, co nejjednodušší podobu tohoto projektu podle zadání CS50 Web Search: https://cs50.harvard.edu/web/projects/0/search/“
+- „Vytvoř první co nejjednodušší podobu tohoto projektu podle zadání CS50 Web Search: https://cs50.harvard.edu/web/projects/0/search/“
 - „Vytvořte další stránku v rámci výše uvedeného projektu, která bude obsahovat co největší množství formulářových prvků (input, select, checkbox, radio, textarea, button, …). Formulářové prvky nemusí být funkční.“
 - „Na všech stránkách projektu budou 2 odkazy na validaci HTML a CSS, odkaz na soubor s citacemi a zdroji a odkaz na portfolio.“
