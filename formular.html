@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="links">
+        <a href="index.html">Google Search</a>
+        <a href="images.html">Image Search</a>
+        <a href="advanced.html">Advanced Search</a>
+    </div>
+
+    <main class="demo-form">
+        <h1>Form Elements</h1>
+        <p>This page demonstrates common HTML form controls.</p>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal details</legend>
+                <label for="full-name">Full name</label>
+                <input id="full-name" name="full-name" type="text" placeholder="John Doe">
+
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" placeholder="john@example.com">
+
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+
+                <label for="birth-date">Date of birth</label>
+                <input id="birth-date" name="birth-date" type="date">
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <label for="browser">Favourite browser</label>
+                <select id="browser" name="browser">
+                    <option value="">Choose an option</option>
+                    <option>Chrome</option>
+                    <option>Firefox</option>
+                    <option>Safari</option>
+                    <option>Edge</option>
+                </select>
+
+                <label for="searches">Searches per week</label>
+                <input id="searches" name="searches" type="number" min="0" max="1000" value="10">
+
+                <label for="theme">Theme colour</label>
+                <input id="theme" name="theme" type="color" value="#1a73e8">
+
+                <p>Preferred result type:</p>
+                <label class="choice"><input type="radio" name="result-type" value="web" checked> Web</label>
+                <label class="choice"><input type="radio" name="result-type" value="images"> Images</label>
+                <label class="choice"><input type="radio" name="result-type" value="news"> News</label>
+
+                <p>Notifications:</p>
+                <label class="choice"><input type="checkbox" name="email-notifications"> Email</label>
+                <label class="choice"><input type="checkbox" name="browser-notifications"> Browser</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Feedback</legend>
+                <label for="rating">How useful is search? (1–10)</label>
+                <input id="rating" name="rating" type="range" min="1" max="10" value="8">
+
+                <label for="website">Website</label>
+                <input id="website" name="website" type="url" placeholder="https://example.com">
+
+                <label for="attachment">Attachment</label>
+                <input id="attachment" name="attachment" type="file">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your feedback here..."></textarea>
+            </fieldset>
+
+            <div class="form-actions">
+                <button type="submit">Submit form</button>
+                <button type="reset">Reset</button>
+                <button type="button">Regular button</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Ftadeassedlacek.github.io%2Fgooglesearch%2Fformular.html">Validate HTML</a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftadeassedlacek.github.io%2Fgooglesearch%2Fstyle.css">Validate CSS</a>
+        <a href="https://github.com/TadeasSedlacek/googlesearch/blob/main/citace.md">Sources and citations</a>
+        <a href="https://tadeassedlacek.github.io/">Portfolio</a>
+    </footer>
+</body>
+
+</html>
